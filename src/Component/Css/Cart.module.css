@@ -1,0 +1,118 @@
+.screen {
+    background: url("../Images/aboutcake.jpg") ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(20, 20, 20);
+
+}
+.button{
+   background-color: rgb(155, 154, 154);
+   border: 0;
+   width: 50px;
+   color: black;
+   font-size: x-large;
+   border-radius: 22%;
+}
+.logo1 {
+    height: 100%;
+    width: 40%;
+    justify-content: left;
+   
+}
+
+.flexcontainer {
+    backdrop-filter: blur(5px);
+    min-height: 100vh;
+ 
+    
+
+}
+
+.flexitem { 
+         
+        text-align: center;
+        width: 690px;
+        height: 180px;
+        border-radius: 15px;
+        background-color: rgb(245, 231, 205);
+       color: black;
+        display: flex;
+        margin: 10px;
+}
+.flexitem>h1{
+    font-size: 15px;
+}
+.h3{
+    
+    font-size: x-large;
+    
+}
+
+.details{
+    display: flex;
+    align-items: center;
+}
+
+.deletebutton{
+    width: 100%;
+    font-size: 20px;
+    background-color: black;
+    border: 0;
+    color: palevioletred;
+    border-radius: 10px;
+    padding: 3% 7% ;
+    margin: 0px 10px;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.price >p{
+    font-size: xx-large;
+    color:black;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+.link{
+            border: 0;
+            text-decoration: none;
+            color:rgb(241, 1, 169);
+            font-size: 15px;
+            padding: 2%;
+            font-weight: bold;
+           
+}
+@media only screen and (max-width: 450px) {
+    .flexcontainer {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .flexitem {
+        width: 100%;
+    }
+
+    .button,
+    .deletebutton {
+        width: 100%;
+    
+    }
+
+    .h1 {
+        font-size: 30px;
+    }
+}

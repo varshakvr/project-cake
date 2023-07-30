@@ -1,0 +1,279 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 100%;
+    height: 80vh;
+}
+.h1{
+        text-align: center;
+        justify-content: center;
+        font-size: 54px;
+}
+
+
+.main {
+    
+    
+    width: 100%;
+    height: 100vh;
+}
+.main > h2 {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+
+
+.ab {
+    border: 0;
+    text-decoration: none;
+    color:whitesmoke;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: large;
+    transform: translateY(-150px)
+}
+.abcontainer{
+    padding: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ab:hover {
+    color: black;
+    background-color:palevioletred;
+    transition: .3s ease-in-out;
+}
+/*seconddiv*/
+.seccontainer {
+    
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+padding: 2%;
+
+}
+
+
+
+
+.flex {
+    width: 30%;
+    padding: 19px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition:0.5s;
+    box-shadow: 1px 1px 5px rgb(26, 23, 25),
+            -1px -1px 5px rgb(12, 12, 12),
+            1px -1px 5px rgb(5, 5, 5),
+            -1px 1px 5px rgb(27, 27, 27);
+   
+}
+.flex:hover{
+
+transform: scale(1.1);
+}
+.logo
+{
+    width: 350px;
+    height: 370px;
+}
+.flex>h1
+{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.flex>p{
+    text-align: center;
+    color:rgb(247, 11, 109);
+    font-weight: 600;
+    font-family:Lumanosimo }
+
+ .chefcon
+ {
+
+        display: flex;
+        background-color: rgb(247, 231, 234);
+}
+.text{
+    width: 100%;
+    padding: 60px;
+
+   }
+.text > h1{
+    font-family: Lumanosimo;
+    padding: 20px;
+}
+.text > p{
+font-family:'Times New Roman', Times, serif;
+font-size: 1.3rem;
+padding: 20px;
+line-height: 30px;
+}
+.buy{
+    text-decoration: none;
+    border-radius: 12%;
+    padding: 2%;
+    background-color: palevioletred;
+    font-family: Lumanosimo;
+    font-weight: bold;
+    color: black;
+    margin-left: 5%;
+   
+}
+
+
+.gallery{
+    height: 100vh;
+    width: 100%;
+
+}
+.gallery > h1{
+    text-align: center;
+        justify-content: center;
+        font-size: 54px;
+}
+.slider {
+
+        
+        width: 70%;
+        height: 450px;
+        margin: 60px 200px 80px 200px;
+        background-image:url("/src/Component/Images/g8.jpg") ;
+        left: 50%;
+        right: 50%;
+        background-size: 100% 100%;
+        box-shadow: -10px -10px 30px purple,
+            10px 10px 30px purple;
+        animation: slider 25s infinite linear;
+        border-radius: 50px;
+    
+
+}
+@keyframes slider {
+    10% {
+        background-image: url("/src/Component/Images/g1.jpg");
+    }
+
+    15% {
+        background-image: url("/src/Component/Images/g2.jpg");
+    }
+
+    20% {
+        background-image: url("/src/Component/Images/g3.jpg");
+    }
+
+    30% {
+        background-image: url("/src/Component/Images/g4.jpg");
+    }
+
+    35% {
+        background-image: url("/src/Component/Images/g5.jpg");
+    }
+
+    45% {
+        background-image: url("/src/Component/Images/g6.webp");
+    }
+
+    55% {
+        background-image: url("/src/Component/Images/g7.jpg");
+    }
+}
+
+.parallex1 {
+    /* The image used */
+    background-image: url("../Images/g3.jpg");
+    min-height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    isolation: isolate;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    .flex,
+    .slider {
+        width: 80%;
+        max-width: 500px;
+    }
+
+    .abcontainer {
+        padding: 5%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    
+    .flex {
+        width: 100%;
+        max-width: 400px;
+    }
+    .container{
+        width: 100%;
+        height: 40vh;
+    }
+    .main>h2 {
+        font-size: 24px;
+    }
+
+  
+    .abcontainer {
+        padding: 8%;
+    }
+
+    .seccontainer {
+        justify-content: center;
+    }
+
+    
+         .slider {
+             width: 90%;
+             height: 300px;
+             margin: 40px auto;
+             border-radius: 30px;
+         }
+         .inner{
+            max-width: 100%;
+            max-height: 100%;
+         }
+}
+
+@media only screen and (max-width: 480px) {
+
+   
+    .flex {
+        width: 100%;
+        max-width: 100%;
+    }
+        .slider {
+            width: 100%;
+            height: 200px;
+            margin: 20px auto;
+            border-radius: 20px;
+        }
+   
+
+    .seccontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+        .inner {
+            max-width: 100%;
+        }
+}
