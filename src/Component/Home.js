@@ -64,7 +64,7 @@ window.addEventListener("load",notify)
              <p > Our story began in 2010, when Varsha , the founder of Scooper Dooper, baked her fist cupcakes for sale and offered the bakery to the nearest shop.<br></br><br></br>
               The cakery was awesome and she was proposed to become a regular supplier of sweet bakery. Anna expanded the assortment and created promotional Instagram account.<br></br><br></br>
               Soon she decided to gather a team of like-minded people and start sher own sweet brand and open her own store. Dolcetti itself appeared in 2012 and has been successfully working and backing for you!</p>
-             < Link to="/home" className={style.buy} >BUY NOW</Link> 
+             < Link to="/project-cake/" className={style.buy} >BUY NOW</Link> 
             </div>
           <div className={style.inner}>
            <img src={chef} className={style.inner} />

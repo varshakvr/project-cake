@@ -47,7 +47,7 @@ setcart([...cart,item]);
   <Mycontext.Provider value={{handleclick}}>
   <Navbar cart={cart}/>
   <Routes>
-  <Route exact path="/" element={<Home/>}/>
+  <Route exact path="/project-cake/" element={<Home/>}/>
   <Route path="/menu" element={<Menu/>}/>
   <Route path="/cart" element={<Cart cart={cart} setcart={setcart} price1={price1} />}/>
   <Route path="/login" element={<Login/>}/>

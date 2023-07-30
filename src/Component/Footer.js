@@ -13,7 +13,7 @@ function Footer(){
                <div className={style.col}>
                   <h4>SCOOPER DOOPER</h4>
                   <ul>
-                     <li>< Link exact to="/" className={style.link} >HOME</Link> </li>
+                     <li>< Link exact to="/project-cake/" className={style.link} >HOME</Link> </li>
                  <li>< Link to="/menu" className={style.link} >MENU</Link> </li>
                  <li>< Link to="/about" className={style.link} >ABOUT</Link> </li>
                   </ul>

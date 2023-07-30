@@ -11,7 +11,7 @@ function Navbar({cart}){
             <img src={logo1} className={style.logo}/>
         </div>
         <div className={style.navlink}>
-                        <Link exact to="/" className={style.listitem} >HOME</Link> 
+                        <Link exact to="/project-cake/" className={style.listitem} >HOME</Link> 
                         <Link to="/menu" className={style.listitem} >MENU</Link> 
                         <div className={style.cartno}>
                             <Link to="/cart" className={style.listitem} >CART</Link> 
