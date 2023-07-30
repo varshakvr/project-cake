@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/project-cake/static/css/main.e6051950.css",
+    "main.js": "/project-cake/static/js/main.422feb58.js",
+    "static/media/Delicious1.gif": "/project-cake/static/media/Delicious1.ec43ba828f9b0bda0853.gif",
+    "static/media/g4.jpg": "/project-cake/static/media/g4.fdc4d2d93e9eb9e1a3a9.jpg",
+    "static/media/menu.jpg": "/project-cake/static/media/menu.0a239f003c6e2d4b165e.jpg",
+    "static/media/wedding.jpg": "/project-cake/static/media/wedding.bf7b0bfe230da699afcc.jpg",
+    "static/media/g3.jpg": "/project-cake/static/media/g3.9f4874ae412323cd5715.jpg",
+    "static/media/aboutcake.jpg": "/project-cake/static/media/aboutcake.3e8f2a91c93167a255b4.jpg",
+    "static/media/chef.webp": "/project-cake/static/media/chef.64e8938d7e6590402560.webp",
+    "static/media/g2.jpg": "/project-cake/static/media/g2.59f159da3d38aed5c243.jpg",
+    "static/media/g7.jpg": "/project-cake/static/media/g7.21873f93436646227026.jpg",
+    "static/media/mw3.jpg": "/project-cake/static/media/mw3.4217b3bbb82087e9ba11.jpg",
+    "static/media/mic2.jpg": "/project-cake/static/media/mic2.ca7a6da0995ddc6d67fa.jpg",
+    "static/media/mc2.jpg": "/project-cake/static/media/mc2.bf84be5832b3ceb1732a.jpg",
+    "static/media/g5.jpg": "/project-cake/static/media/g5.aefd409bb405c0a06c75.jpg",
+    "static/media/2.png": "/project-cake/static/media/2.b0f159724aa00fe0e4ab.png",
+    "static/media/mic1.jpg": "/project-cake/static/media/mic1.8c8d6abda866daf3ecff.jpg",
+    "static/media/mw2.jpg": "/project-cake/static/media/mw2.6d30ef021233b3e9e903.jpg",
+    "static/media/mw5.jpg": "/project-cake/static/media/mw5.7bfeaa9f502fddb8f4c4.jpg",
+    "static/media/mw1.jpg": "/project-cake/static/media/mw1.373cb1c363c85b109f78.jpg",
+    "static/media/g1.jpg": "/project-cake/static/media/g1.817de84c90c8cf997a02.jpg",
+    "static/media/mc1.jpg": "/project-cake/static/media/mc1.79d2c971b33aae5de4a4.jpg",
+    "static/media/g8.jpg": "/project-cake/static/media/g8.a44afe8b82d82b547d60.jpg",
+    "static/media/Untitled design.jpg": "/project-cake/static/media/Untitled design.48e3fadb221891f07a89.jpg",
+    "static/media/mic3.jpg": "/project-cake/static/media/mic3.45ada193516121d108b1.jpg",
+    "static/media/g6.webp": "/project-cake/static/media/g6.ce4975a54b36c31e1aa2.webp",
+    "static/media/mc3.jpg": "/project-cake/static/media/mc3.c30129e410f5c3fff869.jpg",
+    "static/media/cupcake.jpg": "/project-cake/static/media/cupcake.0a5dd22dfcc269aa0726.jpg",
+    "static/media/mw4.jpg": "/project-cake/static/media/mw4.93541de790822ae49323.jpg",
+    "static/media/piece.jpg": "/project-cake/static/media/piece.93f2c61b88ce26248eb5.jpg",
+    "index.html": "/project-cake/index.html",
+    "main.e6051950.css.map": "/project-cake/static/css/main.e6051950.css.map",
+    "main.422feb58.js.map": "/project-cake/static/js/main.422feb58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6051950.css",
+    "static/js/main.422feb58.js"
+  ]
+}
